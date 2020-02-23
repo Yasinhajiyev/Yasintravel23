@@ -1,0 +1,119 @@
+.sort li {
+  list-style: none; }
+.sort .drop-menu {
+  position: relative; }
+  .sort .drop-menu .dropped-menu {
+    position: absolute;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    border-radius: 5px;
+    display: none;
+    left: -40px; }
+    .sort .drop-menu .dropped-menu li {
+      margin-left: -10px;
+      margin-right: 10px;
+      padding-top: -5px; }
+      .sort .drop-menu .dropped-menu li a {
+        color: #1A2B48;
+        text-decoration: none; }
+      .sort .drop-menu .dropped-menu li p {
+        margin: -1px 0; }
+
+.hotelleft-right .hotelrightimage-text .image {
+  overflow: hidden;
+  transition: .3s;
+  position: relative;
+  z-index: 9898; }
+  .hotelleft-right .hotelrightimage-text .image:hover img {
+    transform: scale(1.1);
+    transition: .3s; }
+  .hotelleft-right .hotelrightimage-text .image .image-header p {
+    position: relative;
+    top: -220px;
+    left: 0px;
+    z-index: 989;
+    padding: 1px 3px;
+    background-color: #19A1E5; }
+  .hotelleft-right .hotelrightimage-text .image .image-header i {
+    position: relative;
+    top: -220px;
+    right: -110px;
+    color: white;
+    font-size: 22px; }
+  .hotelleft-right .hotelrightimage-text .image .image-footer i {
+    position: relative;
+    top: -72px;
+    left: 10px;
+    color: #FA5636; }
+.hotelleft-right .hotelrightimage-text .hotelright-text a {
+  position: relative;
+  top: -60px; }
+.hotelleft-right .hotelrightimage-text .hotelright-text P {
+  position: relative;
+  top: -60PX; }
+.hotelleft-right .filter-price {
+  padding: 5px 15px;
+  border: 1px solid #D7DCE3;
+  position: relative; }
+  .hotelleft-right .filter-price i {
+    position: absolute;
+    top: 17px;
+    left: 220px; }
+  .hotelleft-right .filter-price .active-filter {
+    display: none; }
+.hotelleft-right .review-score {
+  padding: 15px;
+  border: 1px solid #D7DCE3;
+  position: relative; }
+  .hotelleft-right .review-score i {
+    position: absolute;
+    top: 17px;
+    left: 220px; }
+  .hotelleft-right .review-score .active-review {
+    display: none; }
+.hotelleft-right .hotel-star {
+  padding: 15px;
+  border: 1px solid #D7DCE3;
+  position: relative; }
+  .hotelleft-right .hotel-star .open i {
+    position: absolute;
+    top: 17px;
+    left: 220px; }
+  .hotelleft-right .hotel-star .star {
+    display: none; }
+    .hotelleft-right .hotel-star .star i {
+      font-size: 14px;
+      color: #FA5636; }
+.hotelleft-right .facilities {
+  padding: 15px;
+  border: 1px solid #D7DCE3;
+  position: relative; }
+  .hotelleft-right .facilities i {
+    position: absolute;
+    top: 17px;
+    left: 220px; }
+  .hotelleft-right .facilities p {
+    color: gray; }
+  .hotelleft-right .facilities .active-facilities {
+    display: none; }
+    .hotelleft-right .facilities .active-facilities .facilities-down i {
+      position: absolute;
+      top: 178px;
+      font-size: 20px; }
+.hotelleft-right .hotel-theme {
+  padding: 15px;
+  border: 1px solid #D7DCE3;
+  position: relative; }
+  .hotelleft-right .hotel-theme i {
+    position: absolute;
+    top: 17px;
+    left: 220px; }
+  .hotelleft-right .hotel-theme p {
+    color: gray; }
+  .hotelleft-right .hotel-theme .active-hotel {
+    display: none; }
+    .hotelleft-right .hotel-theme .active-hotel .facilities-down i {
+      position: absolute;
+      top: 178px;
+      font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */
